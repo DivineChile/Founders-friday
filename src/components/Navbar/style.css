@@ -1,0 +1,8 @@
+.nav-link.active {
+  color: var(--primary-color) !important;
+}
+
+.backdrop.active {
+  opacity: 1;
+  visibility: visible;
+}
