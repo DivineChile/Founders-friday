@@ -72,7 +72,13 @@ const Navbar = () => {
         >
           <Box
             className="logo"
-            w={{ base: "190px", sm: "250px", xl: "300px", "2xl": "332.14px" }}
+            w={{
+              base: "160px",
+              sm: "190px",
+              md: "250px",
+              xl: "300px",
+              "2xl": "332.14px",
+            }}
             h={{ base: "70px", xl: "80px", "2xl": "80.63px" }}
             display="flex"
             alignItems="center"

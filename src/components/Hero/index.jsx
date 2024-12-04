@@ -49,6 +49,7 @@ const Hero = () => {
           justifyContent={{ base: "center", lg: "space-between" }}
           flexDir={{ base: "column", lg: "row" }}
           my={{ base: "40px", lg: "0" }}
+          gap={{ base: "40px", lg: "0" }}
         >
           <Box
             className="hero-inner-content"
@@ -77,11 +78,13 @@ const Hero = () => {
               <Heading
                 color="#5c00b3"
                 fontSize={{
-                  base: "35px",
+                  base: "30px",
+                  sm: "35px",
                   md: "35px",
                   lg: "40px",
                   xl: "45px",
-                  "2xl": "45px",
+                  "2xl": "42px",
+                  "4xl": "45px",
                 }}
                 fontWeight={{ base: "bold", "2xl": "bold" }}
                 fontFamily="Montserrat"
@@ -113,8 +116,8 @@ const Hero = () => {
 
             <Box display="flex" flexDir="column" gap="10px">
               <Button
-                py="35px"
-                px="20px"
+                py={{ base: "30px", lg: "35px" }}
+                px={{ base: "20px", lg: "20px" }}
                 w="fit-content"
                 borderRadius="40px"
                 border="2px solid var(--border-color)"
@@ -138,7 +141,7 @@ const Hero = () => {
                 as="span"
                 color="#6750a4"
                 fontSize={{
-                  base: "10px",
+                  base: "10.5px",
                   md: "12px",
                   lg: "12px",
                   xl: "14px",
@@ -152,8 +155,12 @@ const Hero = () => {
               </Text>
             </Box>
 
-            <VStack alignItems="start" mt="40px" gap="30px">
-              <Flex gap="30px">
+            <VStack
+              alignItems="start"
+              mt={{ base: "20px", lg: "40px" }}
+              gap={{ base: "20px", lg: "30px" }}
+            >
+              <Flex gap={{ base: "20px", lg: "30px" }}>
                 <For
                   each={[
                     {
@@ -182,13 +189,13 @@ const Hero = () => {
                     return (
                       <Box
                         h={{
-                          base: "40px",
+                          base: "50px",
                           md: "55px",
                           xl: "70px",
                           "2xl": "80px",
                         }}
                         w={{
-                          base: "40px",
+                          base: "50px",
                           md: "55px",
                           xl: "70px",
                           "2xl": "80px",
@@ -213,13 +220,13 @@ const Hero = () => {
                 _hover={{ textDecor: "none" }}
                 gap="15px"
                 fontSize={{
-                  base: "8px",
+                  base: "10px",
                   md: "10px",
                   lg: "10px",
                   xl: "12px",
                   "2xl": "14px",
                 }}
-                fontWeight={{ base: "400", "2xl": "bold" }}
+                fontWeight={{ base: "bold", "2xl": "bold" }}
                 fontFamily="Montserrat"
                 lineHeight="120%"
               >
