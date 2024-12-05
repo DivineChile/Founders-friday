@@ -115,7 +115,7 @@ const CTA = () => {
               dignissim lacus. Cras sagittis imperdiet dolor, eget accumsan leo
               suscipit id. Maecenas ut ante quis quam lobortis consequat eu id
               turpis. Pellentesque habitant morbi tristique senectus et netus et
-              malesuada fames ac turpis egestas. 
+              malesuada fames ac turpis egestas.
             </Text>
 
             <Button

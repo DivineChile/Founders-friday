@@ -1,5 +1,6 @@
 import { Box, Container, Heading, Image, Text, Button } from "@chakra-ui/react";
 import arrowRight from "../../assets/communityContent/arrowRight.svg";
+import arrowRightTwo from "../../assets/communityContent/arrowRightTwo.svg";
 import communityImg from "../../assets/communityContent/communityImg.png";
 import lineThree from "../../assets/communityContent/lineThree.svg";
 import sideImg from "../../assets/communityContent/sideImg.png";
@@ -105,7 +106,7 @@ const Community = () => {
                 w="fit"
               >
                 Register Now
-                <Image src={arrowRight} />
+                <Image src={arrowRightTwo} />
               </Button>
             </Box>
           </Box>
@@ -117,6 +118,7 @@ const Community = () => {
             flexDir={{ base: "column", lg: "row" }}
             alignItems="center"
             py={{ base: "40px", lg: "80px" }}
+            gap={{ base: "20px", lg: "0" }}
           >
             <Box w={{ base: "100%", md: "70%", lg: "48%" }} pos="relative">
               <Image src={sideImg} h="100%" w="100%" />
