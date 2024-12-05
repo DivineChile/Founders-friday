@@ -6,7 +6,14 @@ import { useSwiper } from "swiper/react";
 const SliderBtns = () => {
   const swiper = useSwiper();
   return (
-    <Box pos="absolute" right="0" top="0" zIndex="2" display="flex" gap="20px">
+    <Box
+      pos="absolute"
+      right="0"
+      top={{ base: "20px", lg: "0" }}
+      zIndex="2"
+      display="flex"
+      gap="20px"
+    >
       <Circle
         h={{ base: "60px", lg: "70px", xl: "80px", "2xl": "90px" }}
         w={{ base: "60px", lg: "70px", xl: "80px", "2xl": "90px" }}

@@ -28,7 +28,7 @@ const FaqAccordion = ({ dataOne, dataTwo }) => {
         >
           {dataOne.map((item, i) => {
             return (
-              <AccordionItem border="none" key={i}>
+              <AccordionItem border="none" key={i} value={item.value}>
                 <AccordionItemTrigger
                   display="flex"
                   justifyContent="space-between"
@@ -83,7 +83,7 @@ const FaqAccordion = ({ dataOne, dataTwo }) => {
         >
           {dataTwo.map((item, i) => {
             return (
-              <AccordionItem border="none" key={i}>
+              <AccordionItem border="none" key={i} value={item.value}>
                 <AccordionItemTrigger
                   display="flex"
                   justifyContent="space-between"

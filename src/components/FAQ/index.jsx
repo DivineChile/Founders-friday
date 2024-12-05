@@ -4,14 +4,17 @@ import FaqAccordion from "./FaqAccordion";
 const FAQ = () => {
   const faqOne = [
     {
+      value: "1",
       heading: "Lorem ipsum dolor sit amet, consectetur adi elit.",
       desc: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo rem similique accusantium culpa quam modi, architecto iste dolore facilis veritatis.",
     },
     {
+      value: "2",
       heading: "Lorem ipsum dolor sit amet, consectetur adi elit.",
       desc: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo rem similique accusantium culpa quam modi, architecto iste dolore facilis veritatis.",
     },
     {
+      value: "3",
       heading: "Lorem ipsum dolor sit amet, consectetur adi elit.",
       desc: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo rem similique accusantium culpa quam modi, architecto iste dolore facilis veritatis.",
     },
@@ -19,14 +22,17 @@ const FAQ = () => {
 
   const faqTwo = [
     {
+      value: "1",
       heading: "Lorem ipsum dolor sit amet, consectetur adi elit.",
       desc: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo rem similique accusantium culpa quam modi, architecto iste dolore facilis veritatis.",
     },
     {
+      value: "2",
       heading: "Lorem ipsum dolor sit amet, consectetur adi elit.",
       desc: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo rem similique accusantium culpa quam modi, architecto iste dolore facilis veritatis.",
     },
     {
+      value: "3",
       heading: "Lorem ipsum dolor sit amet, consectetur adi elit.",
       desc: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo rem similique accusantium culpa quam modi, architecto iste dolore facilis veritatis.",
     },
