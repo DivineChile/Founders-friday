@@ -1,12 +1,4 @@
-import {
-  Box,
-  Button,
-  Container,
-  For,
-  Heading,
-  Image,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Button, Container, Heading, Image, Text } from "@chakra-ui/react";
 
 import bg from "../../assets/ctaContent/ctaImg.png";
 import ctaSideImg from "../../assets/ctaContent/logoLarge.png";
@@ -86,7 +78,7 @@ const CTA = () => {
                         <Heading
                           color="var(--border-color)"
                           fontSize={{
-                            base: "44px",
+                            base: "54px",
                             md: "66px",
                             lg: "88px",
                             xl: "100px",
@@ -148,7 +140,7 @@ const CTA = () => {
               <Image src={arrowRight} />
             </Button>
           </Box>
-          <Box className="cta-inner-img" w="30%" hideBelow="sm">
+          <Box className="cta-inner-img" w="30%" hideBelow="lg">
             <Image src={ctaSideImg} />
           </Box>
         </Box>

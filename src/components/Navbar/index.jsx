@@ -13,13 +13,13 @@ import logo from "../../assets/navbarContent/logo.svg";
 import arrowRight from "../../assets/navbarContent/arrowRight.svg";
 import arrowLeft from "../../assets/navbarContent/arrowLeft.svg";
 import barIcon from "../../assets/navbarContent/barIcon.svg";
-import menuIcon from "../../assets/navbarContent/menuIcon.svg";
 
 import "./style.css";
 
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState(null);
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const handleSetActive = (index) => {
     setActiveLink(index);
@@ -28,6 +28,22 @@ const Navbar = () => {
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
   };
+
+  // Monitor scrolling
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   useEffect(() => {
     if (isNavOpen) {
@@ -39,14 +55,16 @@ const Navbar = () => {
 
   return (
     <Box
-      className="navbar"
+      className={`navbar ${isScrolled ? "scrolled" : ""}`}
       id="home"
       h={{ base: "100px", sm: "115px", "2xl": "125px" }}
       display="flex"
       alignItems="center"
       borderBottom="0.5px solid #75687e"
-      pos="relative"
+      pos={isScrolled ? "fixed" : "relative"}
+      top={isScrolled ? "0" : "initial"}
       zIndex="3"
+      w="100%"
       bg="#fff"
     >
       <Box

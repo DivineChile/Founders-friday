@@ -108,9 +108,9 @@ const Hero = () => {
               my={{ base: "0", lg: "20px" }}
             >
               Every last Friday of the month, we bring together the brightest
-              minds in our local tech ecosystem. Whether you're a seasoned
-              entrepreneur or just starting your journey, Founder's Friday is
-              your launchpad for new ideas, valuable connections, and
+              minds in our local tech ecosystem. Whether you&apos;re a seasoned
+              entrepreneur or just starting your journey, Founder&apos;s Friday
+              is your launchpad for new ideas, valuable connections, and
               game-changing opportunities.
             </Text>
 

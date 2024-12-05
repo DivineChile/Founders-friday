@@ -26,7 +26,7 @@ const About = () => {
           alignItems="center"
           pos="relative"
           zIndex="2"
-          py="40px"
+          py={{ base: "40px", lg: "80px", xl: "120px" }}
           flexDir={{ base: "column", lg: "row" }}
           gap={{ base: "40px", lg: "0" }}
         >

@@ -1,5 +1,7 @@
 .mySwiper {
   height: 150px;
+  display: flex;
+  align-items: center !important;
 }
 
 .mySwiper .swiper-slide {
@@ -8,13 +10,13 @@
 
 @media (max-width: 500px) {
   .mySwiper {
-    height: 50px;
+    height: 70px !important;
   }
 }
 
 @media (max-width: 768px) {
   .mySwiper {
-    height: 50px;
+    height: 70px !important;
   }
 }
 
@@ -26,12 +28,18 @@
 
 @media (max-width: 1200px) {
   .mySwiper {
-    height: 80px;
+    height: 120px;
   }
 }
 
-@media (max-width: 1400px) {
+@media (min-width: 1200px) {
   .mySwiper {
     height: 110px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .mySwiper {
+    height: 160px;
   }
 }

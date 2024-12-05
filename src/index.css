@@ -13,3 +13,7 @@ body {
 body.no-scroll {
   overflow: hidden;
 }
+
+.nav-link.active {
+  color: var(--primary-color) !important;
+}
