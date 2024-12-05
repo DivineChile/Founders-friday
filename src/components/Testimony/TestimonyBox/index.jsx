@@ -17,7 +17,7 @@ const TestimonyBox = ({ testimonies }) => {
         loop
         slidesPerView={3}
         spaceBetween={50}
-        className="mySwiper"
+        className="myTestimonySwiper"
       >
         <Box>
           <SliderBtns />

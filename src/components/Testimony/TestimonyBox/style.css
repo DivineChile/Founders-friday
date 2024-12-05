@@ -1,9 +1,9 @@
-.mySwiper {
+.myTestimonySwiper {
   position: relative;
   height: 550px;
 }
 
-.mySwiper .swiper-slide {
+.myTestimonySwiper .swiper-slide {
   display: flex;
   align-items: center;
 }

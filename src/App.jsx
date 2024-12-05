@@ -13,14 +13,23 @@ import Testimony from "./components/Testimony";
 const App = () => {
   return (
     <div>
+      {/* Navbar */}
       <Navbar />
+      {/* Hero */}
       <Hero />
+      {/* About Us */}
       <About />
+      {/* What we offer */}
       <Offer />
+      {/* What Happens */}
       <Happen />
+      {/* Sponsors */}
       <Sponsor />
+      {/* Call to Action */}
       <CTA />
+      {/* Community */}
       <Community />
+      {/* Testimony */}
       <Testimony />
       <FAQ />
       <Footer />
