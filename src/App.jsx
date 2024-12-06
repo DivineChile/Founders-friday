@@ -20,12 +20,13 @@ const App = () => {
       {/* About Us */}
       <About />
       {/* What we offer */}
-      {/* Sponsors */}
-      <Sponsor />
       <Offer />
+
       {/* What Happens */}
       <Happen />
 
+      {/* Sponsors */}
+      <Sponsor />
       {/* Call to Action */}
       <CTA />
       {/* Community */}

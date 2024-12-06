@@ -34,12 +34,12 @@
 
 @media (min-width: 1200px) {
   .mySwiper {
-    height: 110px;
+    height: 130px;
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
   .mySwiper {
-    height: 160px;
+    height: 140px !important;
   }
 }
