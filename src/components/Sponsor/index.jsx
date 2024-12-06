@@ -20,7 +20,7 @@ const Sponsor = () => {
       <Container>
         <Box
           className="sponsor-inner"
-          display="flex"
+          display="flex !important"
           flexDir="column"
           gap="40px"
           py={{ base: "40px", lg: "80px" }}
